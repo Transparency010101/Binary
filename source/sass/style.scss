@@ -1,0 +1,84 @@
+@import 'zero';
+@import "additionally";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+//! Основные настроки
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+//! Face
+.face {
+
+		&_sub-title {
+            font-size: 26px;
+            font-weight: 400;
+            text-transform: none;
+		}
+
+		&__bgi {
+            background-image: url(../../image/face/bg_header_743.jpg);
+            background-size: cover;      
+		}
+
+		&__title {
+            font-size: 34px;
+            line-height: 40px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: $_fff;
+		}
+
+		&__line {
+            width: 105px;
+            height: 2px;  
+            background-color: $_fff;       
+            margin: 45px auto 150px;   
+		}
+
+		&__button {
+            @include button($_fff, $_fff);
+            &:hover {
+                opacity: 0.7;
+            }
+            &:active {
+                border: 1px solid $_000;
+                color:$_000;
+            }
+		}
+}
+.faceandabout-container  {
+	@extend %container;
+}
+img[alt="Face logo"] {
+    margin: 165px 0 160px 0;
+}
+img[alt="arrow_down"] {
+    display: block;
+    margin: 75px auto 0;
+    width: 17px;
+    height: 15px;
+}
+.about {
+}
+.about-container {
+    @extend %container;
+}
+.navigation {
+    @extend %navigation;
+		&__links {
+            @extend %navigation__links;
+		}
+}
+.about-block {
+
+		&__sub-title  {
+            @extend %sub-text;
+		}
+}
+.title {
+    @extend %title;
+}
+.black-line {
+    @extend %black_line;
+}

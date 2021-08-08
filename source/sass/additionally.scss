@@ -1,0 +1,59 @@
+// Миксины шаблоны и перемменые 
+//* Перемменые
+$_fff:#fff;
+$_000:#000;
+$_3c3c3c:#3c3c3c;
+//* Шаблоны
+%container {
+    max-width: 890px;
+    margin: auto;
+    text-align: center;
+} 
+%navigation {
+    padding: 16px;
+    word-spacing: 10px;
+}
+%navigation__links {
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $_3c3c3c;
+}
+%navigation__links:hover {
+    color: #ada074;
+}
+%black_line {
+    width: 81px;
+    height: 1px;
+    background-color: $_000;
+    margin: auto;
+}
+%sub-text {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #868585;
+    max-width: 590px;
+    margin: 15px auto 50px;
+}
+%title {
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: $_000;
+    margin: 80px 40px 40px;
+}
+//* Миксины
+@mixin button($bd_color, $text_color) {
+    width: 182px;
+    height: 47px;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: $text_color;
+    border: 1px solid $bd_color;
+    padding: 13px;
+    background: transparent;
+}
