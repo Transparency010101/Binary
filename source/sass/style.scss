@@ -59,8 +59,6 @@ img[alt="arrow_down"] {
     width: 17px;
     height: 15px;
 }
-.about {
-}
 .about-container {
     @extend %container;
 }
@@ -81,4 +79,29 @@ img[alt="arrow_down"] {
 }
 .black-line {
     @extend %black_line;
+}
+.about-columns {
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+    flex: 0 1 33.333%;
+}
+.about {
+		&__icon {
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 10%;
+            border: 1px solid #f1f1f1;
+		}
+
+		&__title {
+            text-transform: uppercase;
+            font-size: 22px;
+            letter-spacing: 0.16em;
+		}
+
+		&__text {
+            @extend %sub-text;
+            margin: 5px 0;
+		}
 }
