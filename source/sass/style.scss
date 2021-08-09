@@ -35,7 +35,9 @@ body {
         margin: 45px auto 150px;
     }
     &__button {
-        @include button($_fff, $_fff);
+        @extend %button;
+        border: 1px solid #fff;
+        color: #fff;
     }
 }
 .faceandabout-container {
@@ -50,6 +52,7 @@ img[alt="arrow_down"] {
     width: 17px;
     height: 15px;
 }
+// ! About
 .about-container {
     @extend %container;
 }
@@ -92,4 +95,39 @@ img[alt="arrow_down"] {
         @extend %sub-text;
         margin: 5px 0;
     }
+}
+// ! Portfolio
+.portfolio {
+    height: 1500px;
+    // ? Это не баг. Я просто оставил место на будущее для grid)
+    background-color: #f3f3f3;
+}
+.portfolio-container {
+    @extend %container;
+}
+.title-and-menu {
+    &__title {
+        padding: 100px 0 0 0;
+        @extend %title;
+    }
+
+    &__line {
+        @extend %black_line;
+    }
+
+    &__menu {
+        margin: 50px 0 0 0;
+        word-spacing: 40px;
+        @extend %navigation;
+    }
+
+    &__links {
+        @extend %navigation__links;
+    }
+}
+.portfolio__button {
+    @extend %button;
+    border: 1px solid #000;
+    color: #000;
+    margin: 40px 0;
 }
