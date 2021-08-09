@@ -45,7 +45,7 @@ $_3c3c3c:#3c3c3c;
     color: $_000;
     margin: 80px 40px 40px;
 }
-//* Миксины
+// * Миксины
 @mixin button($bd_color, $text_color) {
     width: 182px;
     height: 47px;
@@ -55,5 +55,12 @@ $_3c3c3c:#3c3c3c;
     color: $text_color;
     border: 1px solid $bd_color;
     padding: 13px;
-    background: transparent;
+    background-color: transparent;
+    transition-duration: 400ms;
+    &:hover {
+        opacity: 0.7;
+    }
+    &:active {
+        opacity: 0.4;
+    }
 }
