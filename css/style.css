@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.partners__container, .portfolio-container, .about-container, .faceandabout-container {
+.contact-container, .partners__container, .portfolio-container, .about-container, .faceandabout-container {
   max-width: 890px;
   margin: auto;
   text-align: center;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ada074;
 }
 
-.title-and-menu__line, .black-line {
+.contact__line, .title-and-menu__line, .black-line {
   width: 81px;
   height: 1px;
   background-color: #000;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto 50px;
 }
 
-.title-and-menu__title, .title {
+.contact__title, .title-and-menu__title, .title {
   font-size: 34px;
   line-height: 1.2;
   font-weight: 700;

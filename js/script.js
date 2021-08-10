@@ -1,3 +1,6 @@
-let hi = "Hello world!";
-console.log(hi);
+function hi() {
+    console.log('Hello world!');
+}
+hi();
+
 

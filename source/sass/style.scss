@@ -109,17 +109,14 @@ img[alt="arrow_down"] {
         padding: 100px 0 0 0;
         @extend %title;
     }
-
     &__line {
         @extend %black_line;
     }
-
     &__menu {
         margin: 50px 0 0 0;
         word-spacing: 40px;
         @extend %navigation;
     }
-
     &__links {
         @extend %navigation__links;
     }
@@ -139,7 +136,6 @@ img[alt="arrow_down"] {
         height: 390px;
         padding: 55px 0;
     }
-
     &__container {
         @extend %container;
     }
@@ -159,5 +155,29 @@ img[alt="arrow_down"] {
     }
     &__icon {
         margin: 130px 0;
+    }
+}
+.contact {
+    &__title {
+        @extend %title;
+    }
+
+    &__line {
+        @extend %black_line;
+    }
+}
+.contact-container {
+    @extend %container;
+}
+.form {
+}
+.aside {
+    &__text {
+    }
+
+    &__contact {
+    }
+
+    &__email {
     }
 }
