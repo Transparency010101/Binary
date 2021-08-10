@@ -1,7 +1,7 @@
 @import "zero";
 @import "additionally";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
-//! Основные настроки
+// ! Основные настроки
 body {
     font-family: "Lato", sans-serif;
 }
@@ -98,7 +98,6 @@ img[alt="arrow_down"] {
 }
 // ! Portfolio
 .portfolio {
-    height: 1500px;
     // ? Это не баг. Я просто оставил место на будущее для grid)
     background-color: #f3f3f3;
 }
@@ -130,4 +129,35 @@ img[alt="arrow_down"] {
     border: 1px solid #000;
     color: #000;
     margin: 40px 0;
+}
+// ! Partners
+.partners {
+    height: 390px;
+    &__bgi {
+        background-image: url("../../image/partners/partnes_bgi_jpg.png");
+        background-size: cover;
+        height: 390px;
+        padding: 55px 0;
+    }
+
+    &__container {
+        @extend %container;
+    }
+}
+.partner-block {
+    &__title {
+        font-size: 30.4px;
+        line-height: 1.2;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+    }
+    &__flexblock {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon {
+        margin: 130px 0;
+    }
 }

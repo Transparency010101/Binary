@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.portfolio-container, .about-container, .faceandabout-container {
+.partners__container, .portfolio-container, .about-container, .faceandabout-container {
   max-width: 890px;
   margin: auto;
   text-align: center;
@@ -209,7 +209,6 @@ img[alt=arrow_down] {
 }
 
 .portfolio {
-  height: 1500px;
   background-color: #f3f3f3;
 }
 
@@ -224,4 +223,35 @@ img[alt=arrow_down] {
   border: 1px solid #000;
   color: #000;
   margin: 40px 0;
+}
+
+.partners {
+  height: 390px;
+}
+.partners__bgi {
+  background-image: url("../../image/partners/partnes_bgi_jpg.png");
+  background-size: cover;
+  height: 390px;
+  padding: 55px 0;
+}
+.partner-block__title {
+  font-size: 30.4px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.partner-block__flexblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partner-block__icon {
+  margin: 130px 0;
 }
