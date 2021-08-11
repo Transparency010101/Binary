@@ -13,12 +13,10 @@ body {
         font-weight: 400;
         text-transform: none;
     }
-
     &__bgi {
         background-image: url(../../image/face/bg_header_743.jpg);
         background-size: cover;
     }
-
     &__title {
         font-size: 34px;
         line-height: 40px;
@@ -27,7 +25,6 @@ body {
         letter-spacing: 0.16em;
         color: $_fff;
     }
-
     &__line {
         width: 105px;
         height: 2px;
@@ -98,7 +95,6 @@ img[alt="arrow_down"] {
 }
 // ! Portfolio
 .portfolio {
-    // ? Это не баг. Я просто оставил место на будущее для grid)
     background-color: #f3f3f3;
 }
 .portfolio-container {
@@ -165,6 +161,8 @@ img[alt="arrow_down"] {
     &__line {
         @extend %black_line;
     }
+    &__block {
+    }
 }
 .contact-container {
     @extend %container;
@@ -174,10 +172,8 @@ img[alt="arrow_down"] {
 .aside {
     &__text {
     }
-
     &__contact {
     }
-
     &__email {
     }
 }
