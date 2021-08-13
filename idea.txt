@@ -1,1 +1,4 @@
 1. Разобратся с иконами в about__icon
+2. Сделать нормальной  <img src="../../image/face/arrow_down_30.png" alt="arrow_down"> (25ст, index.kit)
+3. Выровнять about__columns по arrow_down.
+4. Сделать из иконок ссылки на их продукт

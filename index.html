@@ -16,7 +16,7 @@
                 <img src="../../image/face/layer_33_copy_2_859.png" alt="Face logo">
                 <h1 class="face__title">
                     Clear, smart, attractive design
-                    <p class="face_sub-title">for your app, logo, website</p>
+                    <p class="face__sub-title">for your app, logo, website</p>
                 </h1>
                 <hr class="face__line">
                 <button class="face__button" onclick="read_more();">
@@ -31,7 +31,7 @@
         <div class="about-container">
             <nav class="navigation">
                 <a href="#" class="navigation__links">HOME</a>
-                <a href="#" class="navigation__links">ABOUT US</a>
+                <a href="#" class="navigation__links">ABOUT-US</a>
                 <a href="#" class="navigation__links">PORTFOLIO</a>
                 <a href="#" class="navigation__links">CONTACT</a>
             </nav>
@@ -121,7 +121,7 @@
         <div class="contact-container">
             <div class="contact__title">CONTACT</div>
             <hr class="contact__line">
-            <div class="contact-block">
+            <div class="contact__block">
                 <!-- ! Form -->
                 <form class="form" action="#" enctype="text/plain">
                     <div class="input-container">
@@ -147,14 +147,16 @@
                 <!-- ! Aside -->
                 <aside class="aside">
                     <div class="aside__text">
-                        Have an idea for a project? Just looking to
-                        explore and see the possibilities?
-                        I'm here to help.
+                        <p>Have an idea for a project? Just looking to</p>
+                        <p>explore and see the possibilities?</p>
+                        <p>I'm here to help.</p>
                     </div>
                     <div class="aside__contact">
-                        <span class="bold-text">Postma Elena</span>
-                        <!-- ? Тут нужно с помощу icons из javascript подлючить -->
-                        <!-- ? Если не смогу, то подлючу через img  -->
+                        <span class="bold-text postma-elena-margin">Postma Elena</span>
+                        <div class="aside__icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
                         <div class="aside__email">
                             e-mail: <span class="bold-text">postma.elena@gmail.com</span>
                         </div>
@@ -164,6 +166,7 @@
         </div>
     </section>
     <script src="../../js/script.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/a580a0af1c.js" crossorigin="anonymous"></script>
     <noscript>
         Внимание! В вашем браузере отключен JavaScript! Без него большая часть функционала сайта
         работать не будет или будет работать некорректно!

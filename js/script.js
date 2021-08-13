@@ -1,9 +1,4 @@
-// ! Забей
-const hi = 'Hello world!';
-function hi() {
-    console.log(hi);
-}
-hi();
+// alert("Подождите немного пока сайт загрузится")
 function read_more() {
     console.log('Read more');
 }
