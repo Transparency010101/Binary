@@ -28,6 +28,22 @@ $_3c3c3c: #3c3c3c;
     background-color: $_000;
     margin: auto;
 }
+%input {
+    width: 161px;
+    height: 35px;
+    background-color: #f8f7f7;
+    border-top: 2px solid #000;
+}
+%input-text {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 15px 0;
+}
+%input-margin {
+    margin: 0 60px 0 0;
+}
 %sub-text {
     font-size: 14px;
     line-height: 25px;

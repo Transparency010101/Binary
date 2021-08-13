@@ -19,7 +19,7 @@
                     <p class="face_sub-title">for your app, logo, website</p>
                 </h1>
                 <hr class="face__line">
-                <button class="face__button">
+                <button class="face__button" onclick="read_more();">
                     READ MORE
                 </button>
                 <img src="../../image/face/arrow_down_30.png" alt="arrow_down">
@@ -116,14 +116,35 @@
                 </div>
             </div>
     </section>
+    <!-- ! Contact -->
     <section class="contact">
         <div class="contact-container">
             <div class="contact__title">CONTACT</div>
             <hr class="contact__line">
             <div class="contact-block">
-                <div class="form">
-                    <!-- TODO: Сделаю когда выучу формы в html -->
-                </div>
+                <!-- ! Form -->
+                <form class="form" action="#" enctype="text/plain">
+                    <div class="input-container">
+                        <div class="username">
+                            <p class="username__text-input">YOUR NAME</p>
+                            <input type="text" name="userName" class="username__input">
+                        </div>
+                        <div class="useremail">
+                            <p class="useremail__text-input">YOUR E-MAIL</p>
+                            <input type="text" name="userEmail" class="useremail__input">
+                        </div>
+                    </div>
+                    <div class="message">
+                        <p class="message__textarea-text">MESSAGE</p>
+                        <textarea name="message" class="message__textarea"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="form-button__button" type="submit">
+                            SEND
+                        </button>
+                    </div>
+                </form>
+                <!-- ! Aside -->
                 <aside class="aside">
                     <div class="aside__text">
                         Have an idea for a project? Just looking to
@@ -131,13 +152,13 @@
                         I'm here to help.
                     </div>
                     <div class="aside__contact">
-                        Postma Elena
+                        <span class="bold-text">Postma Elena</span>
                         <!-- ? Тут нужно с помощу icons из javascript подлючить -->
                         <!-- ? Если не смогу, то подлючу через img  -->
                         <!-- $ <img src="" alt="" class="aside__icon">
                         $ <img src="" alt="" class="aside__icon"> -->
                         <div class="aside__email">
-                            e-mail: postma.elena@gmail.com
+                            e-mail: <span class="bold-text">postma.elena@gmail.com</span>
                         </div>
                     </div>
                 </aside>
