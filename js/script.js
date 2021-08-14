@@ -4,3 +4,4 @@ function body_load() {
 function read_more() {
     console.log('Read more');
 }
+console.log('Hello world!');
