@@ -117,12 +117,28 @@ img[alt="arrow_down"] {
         @extend %navigation__links;
     }
 }
+.portfoli-grid {
+    display: flex;
+    justify-content: center;
+    &__body {
+        display: grid;
+        grid-template-columns: 530px 530px;
+        grid-template-rows: 360px 360px 360px;
+    }
+
+    &__item {
+        margin: 20px;
+        background-color: #eaeaea;
+    }
+}
+
 .portfolio__button {
     @extend %button;
     border: 1px solid #000;
     color: #000;
     margin: 40px 0;
 }
+
 // ! Partners
 .partners {
     height: 390px;
